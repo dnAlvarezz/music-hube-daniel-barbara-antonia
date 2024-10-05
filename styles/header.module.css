@@ -1,0 +1,38 @@
+.header {
+    background-color: #1e3a8a; /* Fondo azul oscuro */
+    padding: 1em;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.title {
+    margin: 0;
+    font-size: 2em;
+}
+
+.nav {
+    margin-top: 1em;
+}
+
+.navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navLink:hover {
+    color: #00ffae; /* Color de resaltado al pasar el cursor */
+}

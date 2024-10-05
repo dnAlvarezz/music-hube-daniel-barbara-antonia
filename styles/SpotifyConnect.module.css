@@ -1,0 +1,31 @@
+.spotifyContainer {
+    padding: 2em;
+    text-align: center;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    color: #f4f4f4;
+}
+
+.connectButton {
+    background-color: #1db954; /* Verde de Spotify */
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.connectButton:hover {
+    background-color: #1ed760; /* Color más claro al pasar el cursor */
+    transform: scale(1.05); /* Aumentar el tamaño del botón ligeramente */
+}
+
+.spotifyContenido {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #282828;
+    border-radius: 5px;
+    color: #1db954; /* Color verde que remite a Spotify */
+}

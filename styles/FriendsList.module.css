@@ -1,0 +1,52 @@
+.amigosContainer {
+    padding: 2em;
+    text-align: center;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    color: #f4f4f4;
+}
+
+.listaAmigos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.amigo {
+    background-color: #3e3e3e;
+    padding: 1.5em;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido horizontalmente */
+}
+
+.amigoFoto {
+    border-radius: 50%;
+    margin-bottom: 1em;
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Asegura que la imagen cubra todo el área */
+    display: block;
+}
+
+.amigoButton {
+    background-color: #00ffae;
+    color: #000;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1em;
+}
+
+.amigoButton:hover {
+    background-color: #1db954;
+}
